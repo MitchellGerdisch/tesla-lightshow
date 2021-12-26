@@ -17,6 +17,7 @@
     <imageDir></imageDir>
   </head>
   <nextid>1</nextid>
+  <Jukebox/>
   <ColorPalettes>
     <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
   </ColorPalettes>
@@ -62,9 +63,11 @@
         <Effect label="" startTime="10720" endTime="10920"></Effect>
         <Effect label="" startTime="10920" endTime="11600"></Effect>
         <Effect label="" startTime="11600" endTime="11840"></Effect>
-        <Effect label="" startTime="11840" endTime="12720"></Effect>
-        <Effect label="" startTime="12720" endTime="12760"></Effect>
-        <Effect label="" startTime="12760" endTime="14160"></Effect>
+        <Effect label="" startTime="11840" endTime="12460"></Effect>
+        <Effect label="" startTime="12460" endTime="12760"></Effect>
+        <Effect label="" startTime="12760" endTime="13440"></Effect>
+        <Effect label="" startTime="13440" endTime="13680"></Effect>
+        <Effect label="" startTime="13680" endTime="14160"></Effect>
         <Effect label="" startTime="14160" endTime="15340"></Effect>
         <Effect label="" startTime="15340" endTime="30280"></Effect>
       </EffectLayer>
@@ -89,6 +92,10 @@
       </SubModelEffectLayer>
       <SubModelEffectLayer name="FrontLights">
         <Effect ref="0" name="On" startTime="10720" endTime="10920" palette="0"/>
+        <Effect ref="0" name="On" selected="1" id="1" startTime="13440" endTime="13680" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="RearLights">
+        <Effect ref="0" name="On" startTime="12460" endTime="12760" palette="0"/>
       </SubModelEffectLayer>
     </Element>
   </ElementEffects>
