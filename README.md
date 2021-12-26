@@ -19,8 +19,18 @@ Tesla Getting Started: https://github.com/teslamotors/light-show
 # Workflow
 
 - Open xlights
-- Open a new SHOW FOLDER - select the "tesla_xlights_show_modified" folder
-- Create a new sequence
+  - File > Preferences > Sequences > FSEQ Version, select "V2 Uncompressed"
+- Open a new SHOW FOLDER - select the "tesla_xlights_show_modified" folder.
+  This version of the "Model S" model includes submodels for things like "lights only" or "front lights only" so that you can easily apply effects to subsets of nodes (i.e.lights, doors, windows).
+- Prep the show panels
+  - Make sure the "3D" box is checked in the "Layouts" view.
+- Create a new sequence or copy and modify an existing sequence.
+  - Select the Sequencer tab. For the best editing experience, only the timeline, House Preview, and Color windows are needed.
+
+# Creating a Sequence - Tips and Tricks
+
+- The "Single Strand" effect is a friend here. It provides easy ways to create cascades and flows along the lights.
+- View -> Windows -> Effect Settings is your friend here since it allows you to change the settings for an effect.
 
 # Prep for use in the car
 
@@ -29,17 +39,3 @@ Tesla Getting Started: https://github.com/teslamotors/light-show
   - Create LightShow folder
   - In that folder put the .fseq and .wav (or .mp3) folders from the show you created.
   - Change their names to be "lightshow.fseq" and "lightshow.wav" on the stick.
-
-- Download the folder structure as per instructions in link above.
-- Download xlights app
-- Start up xlights
-  - WITHIN xlights you will need to make the left pane narrower to be able to see the 3D Preview checkbox.
-
-# Things to Know About
-
-- In Sequencer:
-
-  - There's a "single strand" effect that can be used to make chasing lights and stuff like that.
-
-- Sub Models are your friend
-  - Using the tesla_node2light_mapping files you can create submodels that represent subsets of lights and stuff.
