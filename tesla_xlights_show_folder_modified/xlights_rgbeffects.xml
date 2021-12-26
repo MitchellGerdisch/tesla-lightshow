@@ -15,6 +15,12 @@
       <subModel name="Windows" layout="horizontal" type="ranges" bufferstyle="Default" line0="37-40">
         <ControllerConnection/>
       </subModel>
+      <subModel name="Dancing Elements" layout="horizontal" type="ranges" bufferstyle="Default" line0="46-46" line1="37-41">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="Dancing Elements - No Windows" layout="horizontal" type="ranges" bufferstyle="Default" line0="46-46" line1="41-41">
+        <ControllerConnection/>
+      </subModel>
     </model>
   </models>
   <view_objects>

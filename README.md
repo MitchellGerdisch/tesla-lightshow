@@ -1,6 +1,13 @@
 # Introduction
 
-Customized car model and lightshows
+Customized car model and lightshows for Model Y.
+
+## Caveats and Disclaimers
+
+- **USE AT YOUR OWN RISK**
+  - Be sure to run outside of a garage or other obstructions.
+- I make no attempt to be model agnostic. These are done for a Model Y.
+  - That said, there is not reason they shouldn't work for any model.
 
 # References
 
@@ -66,6 +73,10 @@ Tesla Getting Started: https://github.com/teslamotors/light-show
     - node numbering starts at 1 and goes to 46
 
 # Prep for use in the car
+
+- Run `python3 validator PATH_TO_FSEQ_FILE`
+
+  - Confirm it passes validation.
 
 - On a basically blank USB,
 

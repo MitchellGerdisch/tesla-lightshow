@@ -23,15 +23,23 @@
   </ColorPalettes>
   <EffectDB>
     <Effect>E_TEXTCTRL_Eff_On_End=30,E_TEXTCTRL_Eff_On_Start=30</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=20,E_TEXTCTRL_Eff_On_Start=20</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=1.0</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=8</Effect>
+    <Effect></Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=10,E_TEXTCTRL_Eff_On_Start=10</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=25,E_TEXTCTRL_Eff_On_Start=25</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=50,E_TEXTCTRL_Eff_On_Start=50</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=75,E_TEXTCTRL_Eff_On_Start=75</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="32732" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
     <Element collapsed="0" type="timing" name="Manual time markers" visible="1" views="Master View" active="0"/>
-    <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="0"/>
-    <Element collapsed="0" type="timing" name="Bars" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="1"/>
     <Element collapsed="0" type="model" name="Tesla Model S" visible="1"/>
   </DisplayElements>
   <ElementEffects>
@@ -45,6 +53,7 @@
         <Effect label="" startTime="4200" endTime="4480"></Effect>
         <Effect label="" startTime="4480" endTime="4640"></Effect>
         <Effect label="" startTime="4640" endTime="4820"></Effect>
+        <Effect label="" startTime="4820" endTime="5120"></Effect>
       </EffectLayer>
     </Element>
     <Element type="timing" name="Beats">
@@ -57,7 +66,7 @@
         <Effect label="3" startTime="2400" endTime="2860"></Effect>
         <Effect label="4" startTime="2860" endTime="3300"></Effect>
         <Effect label="1" startTime="3300" endTime="3740"></Effect>
-        <Effect label="2" selected="1" startTime="3740" endTime="4180"></Effect>
+        <Effect label="2" startTime="3740" endTime="4180"></Effect>
         <Effect label="3" startTime="4180" endTime="4640"></Effect>
         <Effect label="4" startTime="4640" endTime="5080"></Effect>
         <Effect label="1" startTime="5080" endTime="5520"></Effect>
@@ -90,7 +99,7 @@
         <Effect label="4" startTime="17380" endTime="17820"></Effect>
         <Effect label="1" startTime="17820" endTime="18280"></Effect>
         <Effect label="2" startTime="18280" endTime="18740"></Effect>
-        <Effect label="3" startTime="18740" endTime="19180"></Effect>
+        <Effect label="3" selected="1" startTime="18740" endTime="19180"></Effect>
         <Effect label="4" startTime="19180" endTime="19640"></Effect>
         <Effect label="1" startTime="19640" endTime="20080"></Effect>
         <Effect label="2" startTime="20080" endTime="20520"></Effect>
@@ -135,7 +144,8 @@
         <Effect label="1" startTime="37780" endTime="38220"></Effect>
         <Effect label="2" startTime="38220" endTime="38660"></Effect>
         <Effect label="3" startTime="38660" endTime="39100"></Effect>
-        <Effect label="4" startTime="39100" endTime="39580"></Effect>
+        <Effect label="4" startTime="39100" endTime="39120"></Effect>
+        <Effect label="" startTime="39120" endTime="39580"></Effect>
         <Effect label="1" startTime="39580" endTime="40020"></Effect>
         <Effect label="2" startTime="40020" endTime="40480"></Effect>
         <Effect label="3" startTime="40480" endTime="40960"></Effect>
@@ -517,133 +527,92 @@
         <Effect label="3" startTime="212700" endTime="212700"></Effect>
       </EffectLayer>
     </Element>
-    <Element type="timing" name="Bars">
-      <EffectLayer>
-        <Effect label="1" startTime="1480" endTime="3300"></Effect>
-        <Effect label="2" startTime="3300" endTime="5080"></Effect>
-        <Effect label="3" startTime="5080" endTime="6880"></Effect>
-        <Effect label="4" startTime="6880" endTime="8700"></Effect>
-        <Effect label="5" startTime="8700" endTime="10520"></Effect>
-        <Effect label="6" startTime="10520" endTime="12340"></Effect>
-        <Effect label="7" startTime="12340" endTime="14160"></Effect>
-        <Effect label="8" startTime="14160" endTime="16000"></Effect>
-        <Effect label="9" startTime="16000" endTime="17820"></Effect>
-        <Effect label="10" startTime="17820" endTime="19640"></Effect>
-        <Effect label="11" startTime="19640" endTime="21420"></Effect>
-        <Effect label="12" startTime="21420" endTime="23240"></Effect>
-        <Effect label="13" startTime="23240" endTime="25060"></Effect>
-        <Effect label="14" startTime="25060" endTime="26880"></Effect>
-        <Effect label="15" startTime="26880" endTime="28700"></Effect>
-        <Effect label="16" startTime="28700" endTime="30520"></Effect>
-        <Effect label="17" startTime="30520" endTime="32340"></Effect>
-        <Effect label="18" startTime="32340" endTime="34180"></Effect>
-        <Effect label="19" startTime="34180" endTime="35980"></Effect>
-        <Effect label="20" startTime="35980" endTime="37780"></Effect>
-        <Effect label="21" startTime="37780" endTime="39580"></Effect>
-        <Effect label="22" startTime="39580" endTime="41400"></Effect>
-        <Effect label="23" startTime="41400" endTime="43220"></Effect>
-        <Effect label="24" startTime="43220" endTime="45040"></Effect>
-        <Effect label="25" startTime="45040" endTime="46880"></Effect>
-        <Effect label="26" startTime="46880" endTime="48700"></Effect>
-        <Effect label="27" startTime="48700" endTime="50540"></Effect>
-        <Effect label="28" startTime="50540" endTime="52360"></Effect>
-        <Effect label="29" startTime="52360" endTime="54200"></Effect>
-        <Effect label="30" startTime="54200" endTime="55980"></Effect>
-        <Effect label="31" startTime="55980" endTime="57780"></Effect>
-        <Effect label="32" startTime="57780" endTime="59580"></Effect>
-        <Effect label="33" startTime="59580" endTime="61380"></Effect>
-        <Effect label="34" startTime="61380" endTime="63180"></Effect>
-        <Effect label="35" startTime="63180" endTime="65000"></Effect>
-        <Effect label="36" startTime="65000" endTime="66800"></Effect>
-        <Effect label="37" startTime="66800" endTime="68600"></Effect>
-        <Effect label="38" startTime="68600" endTime="70420"></Effect>
-        <Effect label="39" startTime="70420" endTime="72260"></Effect>
-        <Effect label="40" startTime="72260" endTime="74120"></Effect>
-        <Effect label="41" startTime="74120" endTime="75960"></Effect>
-        <Effect label="42" startTime="75960" endTime="77800"></Effect>
-        <Effect label="43" startTime="77800" endTime="79660"></Effect>
-        <Effect label="44" startTime="79660" endTime="81520"></Effect>
-        <Effect label="45" startTime="81520" endTime="83360"></Effect>
-        <Effect label="46" startTime="83360" endTime="85200"></Effect>
-        <Effect label="47" startTime="85200" endTime="87060"></Effect>
-        <Effect label="48" startTime="87060" endTime="88920"></Effect>
-        <Effect label="49" startTime="88920" endTime="90760"></Effect>
-        <Effect label="50" startTime="90760" endTime="92600"></Effect>
-        <Effect label="51" startTime="92600" endTime="94440"></Effect>
-        <Effect label="52" startTime="94440" endTime="96260"></Effect>
-        <Effect label="53" startTime="96260" endTime="98100"></Effect>
-        <Effect label="54" startTime="98100" endTime="99940"></Effect>
-        <Effect label="55" startTime="99940" endTime="101780"></Effect>
-        <Effect label="56" startTime="101780" endTime="103600"></Effect>
-        <Effect label="57" startTime="103600" endTime="105460"></Effect>
-        <Effect label="58" startTime="105460" endTime="107320"></Effect>
-        <Effect label="59" startTime="107320" endTime="109160"></Effect>
-        <Effect label="60" startTime="109160" endTime="111000"></Effect>
-        <Effect label="61" startTime="111000" endTime="112840"></Effect>
-        <Effect label="62" startTime="112840" endTime="114700"></Effect>
-        <Effect label="63" startTime="114700" endTime="116540"></Effect>
-        <Effect label="64" startTime="116540" endTime="118380"></Effect>
-        <Effect label="65" startTime="118380" endTime="120180"></Effect>
-        <Effect label="66" startTime="120180" endTime="122000"></Effect>
-        <Effect label="67" startTime="122000" endTime="123840"></Effect>
-        <Effect label="68" startTime="123840" endTime="125700"></Effect>
-        <Effect label="69" startTime="125700" endTime="127560"></Effect>
-        <Effect label="70" startTime="127560" endTime="129380"></Effect>
-        <Effect label="71" startTime="129380" endTime="131200"></Effect>
-        <Effect label="72" startTime="131200" endTime="133040"></Effect>
-        <Effect label="73" startTime="133040" endTime="134920"></Effect>
-        <Effect label="74" startTime="134920" endTime="136720"></Effect>
-        <Effect label="75" startTime="136720" endTime="138500"></Effect>
-        <Effect label="76" startTime="138500" endTime="140320"></Effect>
-        <Effect label="77" startTime="140320" endTime="142100"></Effect>
-        <Effect label="78" startTime="142100" endTime="143900"></Effect>
-        <Effect label="79" startTime="143900" endTime="145720"></Effect>
-        <Effect label="80" startTime="145720" endTime="147540"></Effect>
-        <Effect label="81" startTime="147540" endTime="149360"></Effect>
-        <Effect label="82" startTime="149360" endTime="151140"></Effect>
-        <Effect label="83" startTime="151140" endTime="152940"></Effect>
-        <Effect label="84" startTime="152940" endTime="154820"></Effect>
-        <Effect label="85" startTime="154820" endTime="156660"></Effect>
-        <Effect label="86" startTime="156660" endTime="158520"></Effect>
-        <Effect label="87" startTime="158520" endTime="160360"></Effect>
-        <Effect label="88" startTime="160360" endTime="162200"></Effect>
-        <Effect label="89" startTime="162200" endTime="164040"></Effect>
-        <Effect label="90" startTime="164040" endTime="165880"></Effect>
-        <Effect label="91" startTime="165880" endTime="167720"></Effect>
-        <Effect label="92" startTime="167720" endTime="169580"></Effect>
-        <Effect label="93" startTime="169580" endTime="171400"></Effect>
-        <Effect label="94" startTime="171400" endTime="173260"></Effect>
-        <Effect label="95" startTime="173260" endTime="175080"></Effect>
-        <Effect label="96" startTime="175080" endTime="176920"></Effect>
-        <Effect label="97" startTime="176920" endTime="178740"></Effect>
-        <Effect label="98" startTime="178740" endTime="180560"></Effect>
-        <Effect label="99" startTime="180560" endTime="182400"></Effect>
-        <Effect label="100" startTime="182400" endTime="184220"></Effect>
-        <Effect label="101" startTime="184220" endTime="186020"></Effect>
-        <Effect label="102" startTime="186020" endTime="187880"></Effect>
-        <Effect label="103" startTime="187880" endTime="189720"></Effect>
-        <Effect label="104" startTime="189720" endTime="191580"></Effect>
-        <Effect label="105" startTime="191580" endTime="193400"></Effect>
-        <Effect label="106" startTime="193400" endTime="195260"></Effect>
-        <Effect label="107" startTime="195260" endTime="197100"></Effect>
-        <Effect label="108" startTime="197100" endTime="198940"></Effect>
-        <Effect label="109" startTime="198940" endTime="200780"></Effect>
-        <Effect label="110" startTime="200780" endTime="202620"></Effect>
-        <Effect label="111" startTime="202620" endTime="204460"></Effect>
-        <Effect label="112" startTime="204460" endTime="206280"></Effect>
-        <Effect label="113" startTime="206280" endTime="208100"></Effect>
-        <Effect label="114" startTime="208100" endTime="209960"></Effect>
-        <Effect label="115" startTime="209960" endTime="211780"></Effect>
-        <Effect label="116" startTime="211780" endTime="211780"></Effect>
-      </EffectLayer>
-    </Element>
     <Element type="model" name="Tesla Model S">
       <EffectLayer/>
       <SubModelEffectLayer name="LightsOnly">
         <Effect ref="0" name="On" startTime="560" endTime="3740" palette="0"/>
+        <Effect ref="1" name="SingleStrand" id="1" startTime="22320" endTime="36880" palette="0"/>
+        <Effect ref="2" name="On" id="2" startTime="36900" endTime="37580" palette="0"/>
+        <Effect ref="2" name="On" id="3" startTime="37580" endTime="38280" palette="0"/>
+        <Effect ref="3" name="SingleStrand" id="4" startTime="40480" endTime="55520" palette="0"/>
+        <Effect ref="4" name="SingleStrand" id="5" startTime="68160" endTime="70840" palette="0"/>
+        <Effect ref="5" name="SingleStrand" id="6" startTime="71340" endTime="89340" palette="0"/>
+        <Effect ref="0" name="On" id="7" startTime="96720" endTime="99180" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="FrontLights">
+        <Effect ref="6" name="On" startTime="4180" endTime="4420" palette="0"/>
+        <Effect ref="6" name="On" id="1" startTime="5080" endTime="5320" palette="0"/>
+        <Effect ref="6" name="On" id="2" startTime="5960" endTime="6200" palette="0"/>
+        <Effect ref="6" name="On" id="3" startTime="6860" endTime="7100" palette="0"/>
+        <Effect ref="7" name="On" id="4" startTime="7780" endTime="8260" palette="0"/>
+        <Effect ref="7" name="On" id="5" startTime="8700" endTime="9160" palette="0"/>
+        <Effect ref="7" name="On" id="6" startTime="9620" endTime="10060" palette="0"/>
+        <Effect ref="7" name="On" id="7" startTime="10520" endTime="10960" palette="0"/>
+        <Effect ref="7" name="On" id="8" startTime="11420" endTime="11900" palette="0"/>
+        <Effect ref="7" name="On" id="9" startTime="12340" endTime="12800" palette="0"/>
+        <Effect ref="7" name="On" id="10" startTime="13260" endTime="13700" palette="0"/>
+        <Effect ref="7" name="On" id="11" startTime="14160" endTime="14600" palette="0"/>
+        <Effect ref="7" name="On" id="12" startTime="15080" endTime="15560" palette="0"/>
+        <Effect ref="7" name="On" id="13" startTime="16000" endTime="16460" palette="0"/>
+        <Effect ref="7" name="On" id="14" startTime="16920" endTime="17360" palette="0"/>
+        <Effect ref="7" name="On" id="15" startTime="17820" endTime="18260" palette="0"/>
+        <Effect ref="7" name="On" id="16" startTime="18720" endTime="19200" palette="0"/>
+        <Effect ref="7" name="On" id="17" startTime="19640" endTime="20100" palette="0"/>
+        <Effect ref="7" name="On" id="18" startTime="20560" endTime="21000" palette="0"/>
+        <Effect ref="7" name="On" id="19" startTime="21460" endTime="21900" palette="0"/>
+        <Effect ref="6" name="On" id="20" startTime="38220" endTime="38420" palette="0"/>
+        <Effect ref="6" name="On" id="21" startTime="39120" endTime="39320" palette="0"/>
+        <Effect ref="6" name="On" id="22" startTime="40040" endTime="40240" palette="0"/>
+        <Effect ref="6" name="On" id="23" startTime="56440" endTime="56640" palette="0"/>
+        <Effect ref="6" name="On" id="24" startTime="57340" endTime="57540" palette="0"/>
+        <Effect ref="6" name="On" id="25" startTime="58240" endTime="58440" palette="0"/>
+        <Effect ref="6" name="On" id="26" startTime="60040" endTime="60240" palette="0"/>
+        <Effect ref="6" name="On" id="27" startTime="60940" endTime="61140" palette="0"/>
+        <Effect ref="4" name="SingleStrand" id="28" startTime="63880" endTime="64980" palette="0"/>
+        <Effect ref="1" name="SingleStrand" id="29" startTime="89380" endTime="96260" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="RearLights">
+        <Effect ref="6" name="On" startTime="4420" endTime="4640" palette="0"/>
+        <Effect ref="6" name="On" id="1" startTime="5320" endTime="5540" palette="0"/>
+        <Effect ref="6" name="On" id="2" startTime="6200" endTime="6420" palette="0"/>
+        <Effect ref="6" name="On" id="3" startTime="7100" endTime="7320" palette="0"/>
+        <Effect ref="7" name="On" id="4" startTime="8260" endTime="8700" palette="0"/>
+        <Effect ref="7" name="On" id="5" startTime="9160" endTime="9620" palette="0"/>
+        <Effect ref="7" name="On" id="6" startTime="10060" endTime="10520" palette="0"/>
+        <Effect ref="7" name="On" id="7" startTime="10960" endTime="11420" palette="0"/>
+        <Effect ref="7" name="On" id="8" startTime="11900" endTime="12340" palette="0"/>
+        <Effect ref="7" name="On" id="9" startTime="12800" endTime="13260" palette="0"/>
+        <Effect ref="7" name="On" id="10" startTime="13700" endTime="14160" palette="0"/>
+        <Effect ref="7" name="On" id="11" startTime="14600" endTime="15060" palette="0"/>
+        <Effect ref="7" name="On" id="12" startTime="15560" endTime="16000" palette="0"/>
+        <Effect ref="7" name="On" id="13" startTime="16460" endTime="16920" palette="0"/>
+        <Effect ref="7" name="On" id="14" startTime="17360" endTime="17820" palette="0"/>
+        <Effect ref="7" name="On" id="15" startTime="18260" endTime="18720" palette="0"/>
+        <Effect ref="7" name="On" id="16" startTime="19200" endTime="19640" palette="0"/>
+        <Effect ref="7" name="On" id="17" startTime="20100" endTime="20560" palette="0"/>
+        <Effect ref="7" name="On" id="18" startTime="21000" endTime="21460" palette="0"/>
+        <Effect ref="7" name="On" id="19" startTime="21900" endTime="22360" palette="0"/>
+        <Effect ref="6" name="On" id="20" startTime="38440" endTime="38640" palette="0"/>
+        <Effect ref="6" name="On" id="21" startTime="39320" endTime="39520" palette="0"/>
+        <Effect ref="6" name="On" id="22" startTime="40240" endTime="40440" palette="0"/>
+        <Effect ref="6" name="On" id="23" startTime="56640" endTime="56840" palette="0"/>
+        <Effect ref="6" name="On" id="24" startTime="57540" endTime="57740" palette="0"/>
+        <Effect ref="6" name="On" id="25" startTime="58440" endTime="58640" palette="0"/>
+        <Effect ref="6" name="On" id="26" startTime="60240" endTime="60440" palette="0"/>
+        <Effect ref="6" name="On" id="27" startTime="61140" endTime="61340" palette="0"/>
+        <Effect ref="4" name="SingleStrand" id="28" startTime="65900" endTime="67000" palette="0"/>
+        <Effect ref="1" name="SingleStrand" id="29" startTime="89380" endTime="96260" palette="0"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="Windows">
-        <Effect ref="1" name="On" startTime="240" endTime="560" palette="0"/>
+        <Effect ref="8" name="On" startTime="240" endTime="560" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Dancing Elements">
+        <Effect ref="9" name="On" startTime="62260" endTime="62720" palette="0"/>
+        <Effect ref="9" name="On" id="1" startTime="71340" endTime="89340" palette="0"/>
+        <Effect ref="10" name="On" id="2" startTime="96720" endTime="97180" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Dancing Elements - No Windows">
+        <Effect ref="10" name="On" startTime="89840" endTime="90300" palette="0"/>
       </SubModelEffectLayer>
     </Element>
   </ElementEffects>
