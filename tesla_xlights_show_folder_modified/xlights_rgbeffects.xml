@@ -12,11 +12,14 @@
       <subModel name="RearLights" layout="horizontal" type="ranges" bufferstyle="Default" line0="23-30">
         <ControllerConnection/>
       </subModel>
+      <subModel name="Windows" layout="horizontal" type="ranges" bufferstyle="Default" line0="37-40">
+        <ControllerConnection/>
+      </subModel>
     </model>
   </models>
   <view_objects>
     <view_object DisplayAs="Gridlines" LayoutGroup="Default" name="Gridlines" GridLineSpacing="50" GridWidth="2000.0" GridHeight="1000.0" Active="1" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="-90.00000000" RotateY="-0.00000000" RotateZ="0.00000000" versionNumber="5"/>
-    <view_object DisplayAs="Mesh" LayoutGroup="Default" name="Tesla Model S" ObjFile="/Users/gerdisch/Downloads/tesla-lightshow/tesla-lightshow/tesla_xlights_show_folder/Model_S/ModelS.obj" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
+    <view_object DisplayAs="Mesh" LayoutGroup="Default" name="Tesla Model S" ObjFile="/Users/gerdisch/Downloads/tesla-lightshow/tesla-lightshow/tesla_xlights_show_folder_modified/Model_S/ModelS.obj" WorldPosX="0.0000" WorldPosY="0.0000" WorldPosZ="0.0000" ScaleX="1.0000" ScaleY="1.0000" ScaleZ="1.0000" RotateX="0.00000000" RotateY="0.00000000" RotateZ="0.00000000" Locked="1" versionNumber="5"/>
   </view_objects>
   <effects version="0007"/>
   <views/>

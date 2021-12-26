@@ -2,19 +2,19 @@
 <xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
   <head>
     <version>2021.40</version>
-    <author></author>
-    <author-email></author-email>
-    <author-website></author-website>
+    <author/>
+    <author-email/>
+    <author-website/>
     <song>Tamacun</song>
     <artist>Rodrigo y Gabriela</artist>
     <album>Rodrigo y Gabriela</album>
-    <MusicURL></MusicURL>
-    <comment></comment>
+    <MusicURL/>
+    <comment/>
     <sequenceTiming>20 ms</sequenceTiming>
     <sequenceType>Media</sequenceType>
-    <mediaFile>Tamacun-beginning/Tamacun-beginning.wav</mediaFile>
+    <mediaFile>/Users/gerdisch/Downloads/tesla-lightshow/tesla-lightshow/lightshow-tamacun-beginning/Tamacun-beginning.wav</mediaFile>
     <sequenceDuration>205.800</sequenceDuration>
-    <imageDir></imageDir>
+    <imageDir/>
   </head>
   <nextid>1</nextid>
   <Jukebox/>
@@ -24,6 +24,7 @@
   <EffectDB>
     <Effect></Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=7.8</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=25,E_TEXTCTRL_Eff_On_Start=25</Effect>
   </EffectDB>
   <DataLayers>
     <DataLayer lor_params="32738" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
@@ -92,10 +93,13 @@
       </SubModelEffectLayer>
       <SubModelEffectLayer name="FrontLights">
         <Effect ref="0" name="On" startTime="10720" endTime="10920" palette="0"/>
-        <Effect ref="0" name="On" selected="1" id="1" startTime="13440" endTime="13680" palette="0"/>
+        <Effect ref="0" name="On" id="1" startTime="13440" endTime="13680" palette="0"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="RearLights">
         <Effect ref="0" name="On" startTime="12460" endTime="12760" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Windows">
+        <Effect ref="2" name="On" selected="1" startTime="1740" endTime="2480" palette="0"/>
       </SubModelEffectLayer>
     </Element>
   </ElementEffects>
