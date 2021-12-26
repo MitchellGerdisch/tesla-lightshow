@@ -1,0 +1,47 @@
+,Tesla Model Node Number,Light Node
+0,1,Left Outer Main Beam
+1,2,Right Outer Main Beam
+2,3,Left Inner Main Beam
+3,4,Right Inner Main Beam
+4,5,Left Signature
+5,6,Right Signature
+6,7,Left Channel 4
+7,8,Right Channel 4
+8,9,Left Channel 5
+9,10,Right Channel 5
+10,11,Left Channel 6
+11,12,Right Channel 6
+12,13,Left Front Turn
+13,14,Right Front Turn
+14,15,Left Front Fog
+15,16,Right Front Fog
+16,17,Left Aux Park
+17,18,Right Aux Park
+18,19,Left Side Marker
+19,20,Right Side Marker
+20,21,Left Side Repeater
+21,22,Right Side Repeater
+22,23,Left Rear Turn
+23,24,Right Rear Turn
+24,25,Brake Lights
+25,26,Left Tail
+26,27,Right Tail
+27,28,Reverse Lights
+28,29,Rear Fog Lights
+29,30,License Plate
+30,31,Left Falcon Door
+31,32,Right Falcon Door
+32,33,Left Front Door
+33,34,Right Front Door
+34,35,Left Mirror
+35,36,Right Mirror
+36,37,Left Front Window
+37,38,Left Rear Window
+38,39,Right Front Window
+39,40,Right Rear Window
+40,41,Liftgate
+41,42,Left Front Door Handle
+42,43,Left Rear Door Handle
+43,44,Right Front Door Handle
+44,45,Rear Rear Door Handle
+45,46,Charge Port
