@@ -9,6 +9,11 @@ Customized car model and lightshows for Model Y.
 - I make no attempt to be model agnostic. These are done for a Model Y.
   - That said, there is not reason they shouldn't work for any model.
 
+## Limitations
+
+- My Rear Lights submodel does not appear to work with the "Single Strand" effect. The On/Off stuff works but not the single strand effect - perhaps because it's doesn't start with node 1?
+  - Someone submitted a PR to the tesla lightshow repo that creates separate models.
+
 # References
 
 Tesla Getting Started: https://github.com/teslamotors/light-show
@@ -49,7 +54,6 @@ Tesla Getting Started: https://github.com/teslamotors/light-show
 - See https://github.com/teslamotors/light-show#boolean-light-channels for turning on and off lights and opening windows, etc.
 
 - Adding timing tracks is critical to creating sections of the music in which you can drop effects.
-
   - Manually: click on the waveform where you want to put timing marks and press "t" to add a mark.
   - You can add automatic timing tracks by:
     - Right click on timing track
@@ -58,7 +62,6 @@ Tesla Getting Started: https://github.com/teslamotors/light-show
     - BEST automatic timings:
       - Bars and Beats: Beats
       - Bars and Beats: Bars
-
 - The "Single Strand" effect is a friend here. It provides easy ways to create cascades and flows along the lights.
 - View -> Windows -> Effect Settings is your friend here since it allows you to change the settings for an effect.
 
