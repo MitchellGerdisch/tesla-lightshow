@@ -540,7 +540,7 @@
         <Effect ref="3" name="SingleStrand" id="3" startTime="40480" endTime="55520" palette="0"/>
         <Effect ref="4" name="SingleStrand" id="4" startTime="71340" endTime="89320" palette="0"/>
         <Effect ref="1" name="SingleStrand" id="5" startTime="89360" endTime="96240" palette="0"/>
-        <Effect ref="0" name="On" id="6" startTime="96720" endTime="99180" palette="0"/>
+        <Effect ref="0" name="On" id="6" startTime="96260" endTime="99180" palette="0"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="FrontLights">
         <Effect ref="5" name="On" startTime="4180" endTime="4420" palette="0"/>
@@ -577,7 +577,7 @@
       <SubModelEffectLayer name="Dancing Elements">
         <Effect ref="7" name="On" startTime="61520" endTime="63600" palette="0"/>
         <Effect ref="8" name="On" id="1" startTime="71340" endTime="89340" palette="0"/>
-        <Effect ref="9" name="On" id="2" startTime="96720" endTime="99100" palette="0"/>
+        <Effect ref="9" name="On" selected="1" id="2" startTime="96720" endTime="99100" palette="0"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="Dancing Elements - No Windows">
         <Effect ref="9" name="On" startTime="89840" endTime="95840" palette="0"/>
