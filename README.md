@@ -12,7 +12,7 @@ Customized car model and lightshows for Model Y.
 ## Limitations
 
 - My Rear Lights submodel does not appear to work with the "Single Strand" effect. The On/Off stuff works but not the single strand effect - perhaps because it's doesn't start with node 1?
-  - Someone submitted a PR to the tesla lightshow repo that creates separate models.
+  - Someone submitted a PR to the tesla lightshow repo that creates separate models and that is probably the way to go in the long run.
 
 # References
 
@@ -21,7 +21,6 @@ Tesla Getting Started: https://github.com/teslamotors/light-show
 # Key Ideas/Points
 
 - Create a main folder that has the following subfolders:
-
   - tesla_xlights_show_folder_modified
     - This folder should be left basically untouched other than MODEL edits (e.g. adding a submodel) made through the xlights tooling.
     - The tesla_xlights_show_modified folder contains submodels to isolate sets of lights on top of the show folder that is available from the tesla repo referenced above.
@@ -30,6 +29,10 @@ Tesla Getting Started: https://github.com/teslamotors/light-show
 
 # Workflow
 
+- Identify some music to create the lightshow for.
+  - The Audacity tool is open source and allows you to edit the audio down.
+    - In audacity simply select sections of the waveform and edit->cut, rinse repeat until you have an audio clip that works.
+  - About 1.5 minutes is a good length. Beyond that and you are likely to hit lightshow limits around file size, etc. Besides, 1.5 minutes alone requires a good amount of work.
 - Open xlights
   - File (xLights on Mac) > Preferences > Sequences > FSEQ Version, select "V2 Uncompressed"
 - Open a new SHOW FOLDER - select the "tesla_xlights_show_modified" folder.
