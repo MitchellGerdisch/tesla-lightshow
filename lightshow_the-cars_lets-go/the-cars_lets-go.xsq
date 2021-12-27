@@ -63,11 +63,12 @@
       <EffectLayer/>
       <SubModelEffectLayer name="LightsOnly">
         <Effect ref="0" name="On" startTime="560" endTime="3740" palette="0"/>
-        <Effect ref="1" name="SingleStrand" id="2" startTime="22320" endTime="36880" palette="0"/>
-        <Effect ref="2" name="On" id="3" startTime="36900" endTime="38220" palette="0"/>
-        <Effect ref="3" name="SingleStrand" id="4" startTime="40480" endTime="55520" palette="0"/>
-        <Effect ref="4" name="SingleStrand" id="5" startTime="71340" endTime="89320" palette="0"/>
-        <Effect ref="1" name="SingleStrand" id="6" startTime="89360" endTime="96240" palette="0"/>
+        <Effect ref="1" name="SingleStrand" id="1" startTime="22320" endTime="36880" palette="0"/>
+        <Effect ref="2" name="On" id="2" startTime="36900" endTime="38220" palette="0"/>
+        <Effect ref="3" name="SingleStrand" id="3" startTime="40480" endTime="55520" palette="0"/>
+        <Effect ref="4" name="SingleStrand" id="4" startTime="71340" endTime="89320" palette="0"/>
+        <Effect ref="1" name="SingleStrand" id="5" startTime="89360" endTime="95700" palette="0"/>
+        <Effect ref="5" name="On" id="6" startTime="95700" endTime="96260" palette="0"/>
         <Effect ref="0" name="On" id="7" startTime="96260" endTime="99180" palette="0"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="FrontLights">
