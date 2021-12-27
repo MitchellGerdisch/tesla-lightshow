@@ -9,9 +9,6 @@
       <subModel name="FrontLights" layout="horizontal" type="ranges" bufferstyle="Default" line0="1-20">
         <ControllerConnection/>
       </subModel>
-      <subModel name="RearLights" layout="horizontal" type="ranges" bufferstyle="Default" line0="23-30">
-        <ControllerConnection/>
-      </subModel>
       <subModel name="Windows" layout="horizontal" type="ranges" bufferstyle="Default" line0="37-40">
         <ControllerConnection/>
       </subModel>
@@ -19,6 +16,9 @@
         <ControllerConnection/>
       </subModel>
       <subModel name="Dancing Elements - No Windows" layout="horizontal" type="ranges" bufferstyle="Default" line0="46-46" line1="41-41">
+        <ControllerConnection/>
+      </subModel>
+      <subModel name="RearLights" layout="horizontal" type="ranges" bufferstyle="Default" line0="23-30" line1="1-1">
         <ControllerConnection/>
       </subModel>
     </model>
