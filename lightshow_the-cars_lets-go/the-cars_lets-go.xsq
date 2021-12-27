@@ -37,8 +37,8 @@
     <DataLayer lor_params="32732" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
   </DataLayers>
   <DisplayElements>
-    <Element collapsed="0" type="timing" name="Manual time markers" visible="1" views="Master View" active="0"/>
-    <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="timing" name="Manual time markers" visible="1" views="Master View" active="1"/>
+    <Element collapsed="0" type="timing" name="Beats" visible="1" views="" active="0"/>
     <Element collapsed="0" type="model" name="Tesla Model S" visible="1"/>
   </DisplayElements>
   <ElementEffects>
@@ -57,6 +57,7 @@
         <Effect label="" startTime="65800" endTime="67080"></Effect>
         <Effect label="" startTime="67080" endTime="89360"></Effect>
         <Effect label="" startTime="89360" endTime="96260"></Effect>
+        <Effect label="" startTime="96260" endTime="99280"></Effect>
       </EffectLayer>
     </Element>
     <Element type="timing" name="Beats">
@@ -537,7 +538,7 @@
         <Effect ref="1" name="SingleStrand" id="1" startTime="22320" endTime="36880" palette="0"/>
         <Effect ref="2" name="On" id="2" startTime="36900" endTime="38220" palette="0"/>
         <Effect ref="3" name="SingleStrand" id="3" startTime="40480" endTime="55520" palette="0"/>
-        <Effect ref="4" name="SingleStrand" selected="1" id="4" startTime="71340" endTime="89320" palette="0"/>
+        <Effect ref="4" name="SingleStrand" id="4" startTime="71340" endTime="89320" palette="0"/>
         <Effect ref="1" name="SingleStrand" id="5" startTime="89360" endTime="96240" palette="0"/>
         <Effect ref="0" name="On" id="6" startTime="96720" endTime="99180" palette="0"/>
       </SubModelEffectLayer>
