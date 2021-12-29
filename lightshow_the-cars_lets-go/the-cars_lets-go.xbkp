@@ -24,10 +24,10 @@
   <EffectDB>
     <Effect></Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=30,E_TEXTCTRL_Eff_On_Start=30</Effect>
-    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=12.7</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Left-Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=20,E_TEXTCTRL_Eff_On_Start=20</Effect>
-    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=20,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
-    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Bounce from Right,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=3,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=4</Effect>
+    <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Right-Left,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=2,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
+    <Effect>E_CHECKBOX_Spirals_3D=0,E_CHECKBOX_Spirals_Blend=0,E_CHECKBOX_Spirals_Grow=0,E_CHECKBOX_Spirals_Shrink=0,E_SLIDER_Spirals_Count=1,E_SLIDER_Spirals_Rotation=20,E_SLIDER_Spirals_Thickness=50,E_TEXTCTRL_Spirals_Movement=12</Effect>
     <Effect>E_CHECKBOX_Chase_3dFade1=0,E_CHECKBOX_Chase_Group_All=0,E_CHOICE_Chase_Type1=Dual Chase,E_CHOICE_SingleStrand_Colors=Palette,E_CHOICE_Skips_Direction=Left,E_NOTEBOOK_SSEFFECT_TYPE=Chase,E_SLIDER_Color_Mix1=10,E_SLIDER_Number_Chases=1,E_SLIDER_Skips_Advance=0,E_SLIDER_Skips_BandSize=1,E_SLIDER_Skips_SkipSize=1,E_SLIDER_Skips_StartPos=1,E_TEXTCTRL_Chase_Rotations=2</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=10,E_TEXTCTRL_Eff_On_Start=10</Effect>
     <Effect>E_TEXTCTRL_Eff_On_End=25,E_TEXTCTRL_Eff_On_Start=25</Effect>
@@ -65,13 +65,14 @@
       <SubModelEffectLayer name="LightsOnly">
         <Effect ref="0" name="On" startTime="560" endTime="660" palette="0"/>
         <Effect ref="1" name="On" id="1" startTime="660" endTime="3740" palette="0"/>
-        <Effect ref="2" name="Spirals" selected="1" id="2" startTime="22320" endTime="36880" palette="0"/>
-        <Effect ref="3" name="On" id="3" startTime="36900" endTime="38220" palette="0"/>
-        <Effect ref="4" name="SingleStrand" id="4" startTime="40480" endTime="55520" palette="0"/>
-        <Effect ref="5" name="SingleStrand" id="5" startTime="71340" endTime="89320" palette="0"/>
-        <Effect ref="6" name="SingleStrand" id="6" startTime="89360" endTime="95700" palette="0"/>
-        <Effect ref="0" name="On" id="7" startTime="95700" endTime="96260" palette="0"/>
-        <Effect ref="1" name="On" id="8" startTime="96260" endTime="99180" palette="0"/>
+        <Effect ref="2" name="SingleStrand" id="2" startTime="22320" endTime="36140" palette="0"/>
+        <Effect ref="0" name="On" id="3" startTime="36140" endTime="36640" palette="0"/>
+        <Effect ref="3" name="On" selected="1" id="4" startTime="36640" endTime="38160" palette="0"/>
+        <Effect ref="4" name="SingleStrand" id="5" startTime="40480" endTime="55520" palette="0"/>
+        <Effect ref="5" name="Spirals" id="6" startTime="71340" endTime="89320" palette="0"/>
+        <Effect ref="6" name="SingleStrand" id="7" startTime="89360" endTime="95700" palette="0"/>
+        <Effect ref="0" name="On" id="8" startTime="95700" endTime="96260" palette="0"/>
+        <Effect ref="1" name="On" id="9" startTime="96260" endTime="99180" palette="0"/>
       </SubModelEffectLayer>
       <SubModelEffectLayer name="FrontLights">
         <Effect ref="0" name="On" startTime="4180" endTime="4420" palette="0"/>

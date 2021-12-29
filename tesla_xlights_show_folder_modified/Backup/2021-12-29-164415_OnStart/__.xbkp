@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsequence BaseChannel="0" ChanCtrlBasic="0" ChanCtrlColor="0" FixedPointTiming="1" ModelBlending="true">
+  <head>
+    <version>2021.40</version>
+    <author></author>
+    <author-email></author-email>
+    <author-website></author-website>
+    <song>Let&amp;amp;amp;apos;s Go</song>
+    <artist>The Cars</artist>
+    <album>Candy-O</album>
+    <MusicURL></MusicURL>
+    <comment></comment>
+    <sequenceTiming>20 ms</sequenceTiming>
+    <sequenceType>Media</sequenceType>
+    <mediaFile>/Users/gerdisch/Downloads/tesla-lightshow/tesla-lightshow/lightshow_the-cars_lets-go/the-cars_lets-go.wav</mediaFile>
+    <sequenceDuration>213.173</sequenceDuration>
+    <imageDir></imageDir>
+  </head>
+  <nextid>1</nextid>
+  <ColorPalettes>
+    <ColorPalette>C_BUTTON_Palette1=#FFFFFF,C_BUTTON_Palette2=#FF0000,C_BUTTON_Palette3=#00FF00,C_BUTTON_Palette4=#0000FF,C_BUTTON_Palette5=#FFFF00,C_BUTTON_Palette6=#000000,C_BUTTON_Palette7=#00FFFF,C_BUTTON_Palette8=#FF00FF,C_CHECKBOX_Palette1=1,C_CHECKBOX_Palette2=1</ColorPalette>
+  </ColorPalettes>
+  <EffectDB>
+    <Effect>E_TEXTCTRL_Eff_On_End=30,E_TEXTCTRL_Eff_On_Start=30</Effect>
+    <Effect>E_TEXTCTRL_Eff_On_End=25,E_TEXTCTRL_Eff_On_Start=25</Effect>
+  </EffectDB>
+  <DataLayers>
+    <DataLayer lor_params="32732" channel_offset="0" num_channels="0" num_frames="0" data="&lt;rendered: erase-mode&gt;" source="&lt;auto-generated&gt;" name="Nutcracker"/>
+  </DataLayers>
+  <DisplayElements>
+    <Element collapsed="0" type="timing" name="Manual time markers" visible="1" views="Master View" active="0"/>
+    <Element collapsed="0" type="timing" name="200ms Metronome" visible="1" views="" active="1"/>
+    <Element collapsed="0" type="model" name="Tesla Model S" visible="1"/>
+  </DisplayElements>
+  <ElementEffects>
+    <Element type="timing" name="Manual time markers">
+      <EffectLayer>
+        <Effect label="" startTime="0" endTime="240"></Effect>
+        <Effect label="" startTime="240" endTime="560"></Effect>
+        <Effect label="" startTime="560" endTime="3740"></Effect>
+        <Effect label="" startTime="3740" endTime="3980"></Effect>
+        <Effect label="" startTime="3980" endTime="4200"></Effect>
+        <Effect label="" startTime="4200" endTime="4480"></Effect>
+        <Effect label="" startTime="4480" endTime="4640"></Effect>
+        <Effect label="" startTime="4640" endTime="4820"></Effect>
+      </EffectLayer>
+    </Element>
+    <Element type="timing" name="200ms Metronome" fixed="200">
+      <EffectLayer/>
+    </Element>
+    <Element type="model" name="Tesla Model S">
+      <EffectLayer/>
+      <SubModelEffectLayer name="LightsOnly">
+        <Effect ref="0" name="On" startTime="560" endTime="3740" palette="0"/>
+      </SubModelEffectLayer>
+      <SubModelEffectLayer name="Windows">
+        <Effect ref="1" name="On" startTime="240" endTime="560" palette="0"/>
+      </SubModelEffectLayer>
+    </Element>
+  </ElementEffects>
+  <lastView>0</lastView>
+  <TimingTags>
+    <Tag number="0" position="-1"/>
+    <Tag number="1" position="-1"/>
+    <Tag number="2" position="-1"/>
+    <Tag number="3" position="-1"/>
+    <Tag number="4" position="-1"/>
+    <Tag number="5" position="-1"/>
+    <Tag number="6" position="-1"/>
+    <Tag number="7" position="-1"/>
+    <Tag number="8" position="-1"/>
+    <Tag number="9" position="-1"/>
+  </TimingTags>
+</xsequence>
